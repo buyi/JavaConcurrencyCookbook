@@ -1,7 +1,10 @@
 INTRODUCTION
 
-This is a short document explaining the structure of the code examples of the 
-chapter one and the instructions to import and run the examples in Eclipse.
+NOTICE::
+Withou doing nothing, just run "sh run.sh".
+Good luck,if you hava some question, please let me know.
+
+CHAPTER1
 
 STRUCTURE
 
