@@ -30,8 +30,5 @@ are send as an Eclipse project in a separate subfolder. These projects are
 
 RUNNING THE EXAMPLES
 
-To run the examples, use the import option of the Eclipse IDE. In the menu File, 
-select the option Import. Then, select the option Existing Projects in the 
-Workspace, select one of the directories and click the Finish button.
-
-Then, run the examples as a normal project in Eclipse.
+Withou doing nothing, just run "sh run.sh".
+Good luck,if you hava some question, please let me know.
