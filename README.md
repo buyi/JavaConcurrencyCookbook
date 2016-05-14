@@ -1,14 +1,14 @@
 # JavaConcurrencyCookbook
 
-INTRODUCTION
+##INTRODUCTION
 
 NOTICE::
 Withou doing nothing, just run "sh run.sh".
 Good luck,if you hava some question, please let me know.
 
-CHAPTER1
+##CHAPTER1
 
-STRUCTURE
+###STRUCTURE
 
 There are twelve examples in this chapter, an example per recipe. Every example 
 are send as an Eclipse project in a separate subfolder. These projects are
@@ -44,15 +44,15 @@ exceptions in a group of Threads.
 -recipe 12: Example used in the twelveth recipe, creating Threads throught 
 a factory.
 
-RUNNING THE EXAMPLES
+###RUNNING THE EXAMPLES
 
 Withou doing nothing, just run "sh run.sh".
 Good luck,if you hava some question, please let me know.
 
 
-CHAPTER2
+##CHAPTER2
 
-STRUCTURE
+###STRUCTURE
 
 There are nine examples in this chapter. One example per recipe except the recipe 1
 which has two projects.
@@ -91,5 +91,28 @@ synchronize a block of code instead of a complete method. It implements a progra
 that stores the number of people inside a building and two sensors that
 control the people that come in or go out the building.
 
-RUNNING THE EXAMPLES
+###RUNNING THE EXAMPLES
+just sh run.sh,have a fun!
+
+##CHAPTER3
+
+###STRUCTURE
+
+ch3_recipe1: Semaphore simple sample.
+  
+ch3_recipe2: Semaphore work with lock.
+
+ch3_recipe3: CountDownLatch sample.
+
+ch3_recipe4: CyclicBarrier sample.
+
+ch3_recipe5: Phaser sample.
+
+ch3_recipe6: Phaser onAdvance sample.
+
+ch3_recipe7: Exchanger sample.
+ 
+
+###RUNNING THE EXAMPLES
+
 just sh run.sh,have a fun!
