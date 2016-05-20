@@ -23,7 +23,7 @@ public class Main {
 
 		// Create a list of products
 		ProductListGenerator generator=new ProductListGenerator();
-		List<Product> products=generator.generate(10000);
+		List<Product> products=generator.generate(100);
 		
 		// Craete a task
 		Task task=new Task(products, 0, products.size(), 0.20);

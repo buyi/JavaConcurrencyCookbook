@@ -44,6 +44,9 @@ public class Event implements Delayed {
 	public long getDelay(TimeUnit unit) {	
 		Date now=new Date();
 		long diff=startDate.getTime()-now.getTime();
+		System.out.println("getDelay1:"+ unit);
+		System.out.println("getDelay2:"+ diff);
+		System.out.println("getDelay3:"+ unit.convert(diff,TimeUnit.MILLISECONDS));
 		return unit.convert(diff,TimeUnit.MILLISECONDS);
 	}
 

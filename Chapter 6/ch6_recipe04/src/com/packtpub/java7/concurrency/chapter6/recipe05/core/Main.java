@@ -27,7 +27,7 @@ public class Main {
 		/*
 		 * An array to store the Thread objects that execute the tasks 
 		 */
-		Thread threads[]=new Thread[5];
+		Thread threads[]=new Thread[1];
 		
 		/*
 		 * Create the five tasks
@@ -62,6 +62,7 @@ public class Main {
 				if (event!=null) counter++;
 			} while (event!=null);
 			System.out.printf("At %s you have read %d events\n",new Date(),counter);
+				System.out.printf("queue's size is %d \n", queue.size());
 			TimeUnit.MILLISECONDS.sleep(500);
 		} while (queue.size()>0);
 	}
