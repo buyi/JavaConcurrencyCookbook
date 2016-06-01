@@ -116,3 +116,105 @@ ch3_recipe7: Exchanger sample.
 ###RUNNING THE EXAMPLES
 
 just sh run.sh,have a fun!
+
+##CHAPTER4
+
+###STRUCTURE
+
+ch4_recipe1: ThreadPoolExecutor cachedthreadpool sample.
+  
+ch4_recipe2: ThreadPoolExecutor fixedthreadpool sample.
+
+ch4_recipe3: ThreadPoolExecutor callable sample.
+
+ch4_recipe4: ThreadPoolExecutor invokeAny sample.
+
+ch4_recipe5: ThreadPoolExecutor invokeAll sample.
+
+ch4_recipe6: ScheduledThreadPoolExecutor schedule sample.
+
+ch4_recipe7: ScheduledThreadPoolExecutor scheduleAtFixedRate sample.
+
+ch4_recipe8: ScheduledThreadPoolExecutor cancel sample.
+
+ch4_recipe9: FutureTask done sample.
+
+ch4_recipe10: CompletionService sample.
+
+ch4_recipe11: RejectedExecutionHandler sample.
+
+###RUNNING THE EXAMPLES
+
+just sh run.sh,have a fun!
+
+##CHAPTER5
+
+###STRUCTURE
+
+ch5_recipe1: ForkJoinPool RecursiveAction sample.
+  
+ch5_recipe2: ForkJoinPool RecursiveTask sample.
+
+ch5_recipe3: ForkJoinPool fork sample.
+
+ch5_recipe4: ForkJoinPool throw exception sample.
+
+ch5_recipe5: ForkJoinPool cancel sample.
+
+###RUNNING THE EXAMPLES
+
+just sh run.sh,have a fun!
+
+##CHAPTER6
+
+###STRUCTURE
+
+ch6_recipe1: ConcurrentLinkedDeque sample.
+  
+ch6_recipe2: LinkedBlockingDeque sample.
+
+ch6_recipe3: PriorityBlockingQueue sample.
+
+ch6_recipe4: DelayQueue sample.
+
+ch6_recipe5: ConcurrentSkipListMap sample.
+
+ch6_recipe6: ThreadLocalRandom sample.
+
+ch6_recipe7: AtomicLong sample.
+
+ch6_recipe8: AtomicIntegerArray sample.
+ 
+
+###RUNNING THE EXAMPLES
+
+just sh run.sh,have a fun!
+
+
+##CHAPTER7
+
+###STRUCTURE
+
+ch7_recipe1: customer ThreadPoolExecutor sample.
+
+ch7_recipe2: priority queue sample.
+
+ch7_recipe3: threadfactory sample.
+
+ch7_recipe4: threadfacory in executor.
+
+ch7_recipe5: customer ScheduledThreadPoolExecutor sample.
+
+ch7_recipe6: customer threadfactory in join/fork.
+
+ch7_recipe7: customer task in fork/join.
+
+ch7_recipe8: customer lock.
+
+ch7_recipe9: customer priority queue.
+
+ch7_recipe10: customer Atomic.
+
+###RUNNING THE EXAMPLES 
+
+just sh run.sh,have a fun!

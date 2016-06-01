@@ -1,9 +1,9 @@
-INTRODUCTION
+##INTRODUCTION
 
 This is a short document explaining the structure of the code examples of the 
 chapter three.
 
-STRUCTURE
+##STRUCTURE
 
 ch6_recipe1: ConcurrentLinkedDeque sample.
   
@@ -22,5 +22,6 @@ ch6_recipe7: AtomicLong sample.
 ch6_recipe8: AtomicIntegerArray sample.
  
 
-RUNNING THE EXAMPLES
+##RUNNING THE EXAMPLES
+
 just sh run.sh,have a fun!
